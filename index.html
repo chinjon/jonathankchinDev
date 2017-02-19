@@ -4,52 +4,47 @@
 <head>
 	<title>Test Page</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
 	<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-	<!--START NAV-->
-	<section>
-		<nav>
-			<div class="nav-wrapper container">
-				<a href="#!" class="brand-logo center">Music Blog</a>
-				<ul class="left hide-on-med-and-down">
-					<li class="active"><a href="#">HOME</a></li>
-					<li><a href="#">Components</a></li>
-					<li><a href="#">JavaScript</a></li>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				    aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+      </button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Link</a></li>
 				</ul>
 			</div>
-		</nav>
-	</section>
-	<!--END NAV-->
-	<!--SLIDER START-->
-	<section class="container">
-		<div class="carousel carousel-slider center" data-indicators="true" id="main-slider">
-			<div class="carousel-fixed-item center">
-				<a class="btn waves-effect white grey-text darken-text-2">button</a>
-			</div>
-			<div class="carousel-item red white-text" href="#one!">
-				<h2>First Panel</h2>
-				<p class="white-text">This is your first panel</p>
-			</div>
-			<div class="carousel-item amber white-text" href="#two!">
-				<h2>Second Panel</h2>
-				<p class="white-text">This is your second panel</p>
-			</div>
-			<div class="carousel-item green white-text" href="#three!">
-				<h2>Third Panel</h2>
-				<p class="white-text">This is your third panel</p>
-			</div>
-			<div class="carousel-item blue white-text" href="#four!">
-				<h2>Fourth Panel</h2>
-				<p class="white-text">This is your fourth panel</p>
+		</div>
+	</nav>
+
+	<!-- START JUMBOTRON -->
+	<section class="jumbotron" id="page-jumbo">
+		<div class="container">
+			<div class="page-header text-center">
+				<h1>Jonathan Chin <br><small>Web Developer</small></h1>
 			</div>
 		</div>
 	</section>
-	<!--END SLIDER-->
+	<!-- END JUMBOTRON -->
+
+
+
 	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/materialize/js/materialize.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 
