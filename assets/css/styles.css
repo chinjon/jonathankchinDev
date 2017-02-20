@@ -21,10 +21,15 @@ nav {
     margin-top: 40px;
 }
 
+.portfolio-wrapper {
+    
+}
+
 .portfolio-item {
     background-image: url('http://placehold.it/300x300');
     height: 300px;
     width: 300px;
+    margin: 0 auto;
 }
 
 /*
