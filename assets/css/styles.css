@@ -15,21 +15,29 @@ nav {
     background-image: url('../img/lined_paper.png');
     padding: 5% 0;
     width: 100%;
+    font-size: 100%;
 }
 
-.portfolio-section {
+#portfolio-section {
     margin-top: 40px;
+}
+.row-wrapper {
+    text-align: center;
+    margin: 15px 0;
 }
 
 .portfolio-wrapper {
-    
+    display: block;
+    margin: 0 auto;
 }
 
 .portfolio-item {
     background-image: url('http://placehold.it/300x300');
     height: 300px;
     width: 300px;
+
     margin: 0 auto;
+
 }
 
 /*
@@ -57,4 +65,33 @@ nav {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+
+/*
+/////////////////////////
+        Media Queries
+/////////////////////////
+*/
+
+
+/*sm*/
+
+@media (max-width: 2000px) {
+    .portfolio-item {
+    background-image: url('http://placehold.it/250x250');
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+
+}
+}
+
+@media (max-width: 960px) {
+    .portfolio-item {
+    background-image: url('http://placehold.it/200x200');
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
 }
