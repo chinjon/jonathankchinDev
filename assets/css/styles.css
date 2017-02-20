@@ -1,8 +1,31 @@
-#page-jumbo {
-    background-image: url('../img/lined_paper.png');
-    padding: 100px 0;
+body {
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
 }
 
+section {
+    width: 100% !important;
+}
+
+nav {
+    width: 100%;
+}
+
+#page-jumbo {
+    background-image: url('../img/lined_paper.png');
+    padding: 5% 0;
+    width: 100%;
+}
+
+.portfolio-section {
+    margin-top: 40px;
+}
+
+.portfolio-item {
+    background-image: url('http://placehold.it/300x300');
+    height: 300px;
+    width: 300px;
+}
 
 /*
 /////////////////////////
