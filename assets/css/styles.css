@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     width: 100%;
 }
 
@@ -11,33 +11,17 @@ nav {
     width: 100%;
 }
 
+/*
+/////////////////////////
+        Jumbotron
+/////////////////////////
+*/
+
 #page-jumbo {
     background-image: url('../img/lined_paper.png');
     padding: 5% 0;
     width: 100%;
     font-size: 100%;
-}
-
-#portfolio-section {
-    margin-top: 40px;
-}
-.row-wrapper {
-    text-align: center;
-    margin: 15px 0;
-}
-
-.portfolio-wrapper {
-    display: block;
-    margin: 0 auto;
-}
-
-.portfolio-item {
-    background-image: url('http://placehold.it/300x300');
-    height: 300px;
-    width: 300px;
-
-    margin: 0 auto;
-
 }
 
 /*
@@ -67,6 +51,59 @@ nav {
     100% { opacity:1; }
 }
 
+/*
+/////////////////////////
+    About Section
+/////////////////////////
+*/
+
+#about-text {
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+#about-text p {
+        text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.15);
+}
+
+/*
+/////////////////////////
+    Portfolio Section
+/////////////////////////
+*/
+
+#portfolio-section {
+    margin-top: 40px;
+}
+.row-wrapper {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.portfolio-wrapper {
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background-image: url('http://placehold.it/300x300');
+    height: 300px;
+    width: 300px;
+
+    margin: 0 auto;
+
+}
+
+/*
+/////////////////////////
+    Contact Section
+/////////////////////////
+*/
+
+.contact-text {
+    font-size: 100%;
+}
+
 
 /*
 /////////////////////////
@@ -89,9 +126,14 @@ nav {
 
 @media (max-width: 960px) {
     .portfolio-item {
-    background-image: url('http://placehold.it/200x200');
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-}
+    background-image: url('http://placehold.it/275x125');
+    height: 125px;
+    width: 275px;
+    margin: 4px auto;
+
+    }
+
+    .row-wrapper {
+        margin: 0;
+    }
 }
