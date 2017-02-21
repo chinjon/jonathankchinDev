@@ -130,9 +130,17 @@ nav {
         text-align: center;
     }
 
-    #about div h3 {
+    #about div h2 {
         text-align: center;
     }
+
+/*NOT WORKING*/
+
+    #utils-list {
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+/*NOT WORKING*/
 
     .portfolio-item {
     background-image: url('http://placehold.it/275x125');
