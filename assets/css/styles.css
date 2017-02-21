@@ -135,4 +135,8 @@ nav {
     .row-wrapper {
         margin: 0;
     }
+
+    #skills {
+        text-align: center;
+    }
 }
