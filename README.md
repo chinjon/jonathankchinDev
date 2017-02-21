@@ -4,6 +4,9 @@
 
 ***  
 
+<img src="demo-screen.gif">  
+
+
 ### Work In Progress  
 
 :laughing: Responsive Mobile Ready  
@@ -12,5 +15,5 @@
 
 #### Cool Goals
 
-:weary: Refactor in React
+:weary: Refactor in React  
 :astonished: Make site even "***cleaner***"
