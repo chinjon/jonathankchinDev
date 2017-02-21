@@ -124,6 +124,16 @@ nav {
 }
 
 @media (max-width: 960px) {
+
+    #page-jumbo {
+        margin: 4% 0;
+        text-align: center;
+    }
+
+    #about div h3 {
+        text-align: center;
+    }
+
     .portfolio-item {
     background-image: url('http://placehold.it/275x125');
     height: 125px;
@@ -132,11 +142,22 @@ nav {
 
     }
 
-    .row-wrapper {
-        margin: 0;
-    }
 
     #skills {
         text-align: center;
     }
+
+
+    #portfolio-section h2 {
+        text-align: center;
+    }
+
+    .row-wrapper {
+        margin: 0;
+    }
+
+    #contact {
+        text-align: center;
+    }
+    
 }
