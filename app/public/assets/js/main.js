@@ -6,7 +6,7 @@
 
       $(function(){
       $("#small-typed").typed({
-        strings: ["Learner", "Writer", "Photographer", "Web Developer"],
+        strings: ["Learner", "Writer", "Photographer", "Full-Stack Web Developer"],
         typeSpeed: 0
       });
   });
