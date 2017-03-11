@@ -11,6 +11,7 @@ nav {
     width: 100%;
 }
 
+
 /*
 /////////////////////////
         Jumbotron
@@ -28,32 +29,56 @@ nav {
     color: #fff !important;
 }
 
+
 /*
 /////////////////////////
         Typed Cursor
 /////////////////////////
 */
-.typed-cursor{
+
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 
 /*
 /////////////////////////
@@ -61,13 +86,16 @@ nav {
 /////////////////////////
 */
 
+
 /*#about-text {
     font-size: 100%;
 }*/
 
+
 /*#about-text p {
         text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.15);
 }*/
+
 
 /*
 /////////////////////////
@@ -78,6 +106,7 @@ nav {
 #portfolio-section {
     margin-top: 40px;
 }
+
 .row-wrapper {
     text-align: center;
     margin: 15px 0;
@@ -92,10 +121,25 @@ nav {
     background-image: url('http://placehold.it/300x300');
     height: 300px;
     width: 300px;
-
     margin: 0 auto;
-
+    border-radius: 4px;
 }
+
+
+/*
+/////////////////////////
+    PORTFOLIO ITEMS
+/////////////////////////
+*/
+
+#bites {
+    background-image: url('../img/work-items/bites-300.jpg');
+}
+
+#hangman {
+    background-image: url('../img/work-items/hangman-300.jpg');
+}
+
 
 /*
 /////////////////////////
@@ -117,65 +161,76 @@ nav {
 
 /*sm*/
 
-@media (max-width: 2000px) and (min-width: 1010px) {
+@media (max-width: 1210px) {
     .portfolio-item {
-    background-image: url('http://placehold.it/250x250');
-    height: 250px;
-    width: 250px;
-    margin: 0 auto;
-
-}
+        background-image: url('http://placehold.it/250x250');
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    #bites {
+        background-image: url('../img/work-items/bites-250.jpg');
+    }
+    #hangman {
+        background-image: url('../img/work-items/hangman-250.jpg');
+    }
 }
 
 @media (max-width: 1002px) {
-
     #page-jumbo {
         margin: 4% 0;
         text-align: center;
     }
-
     .portfolio-item {
-    background-image: url('http://placehold.it/225x225');
-    height: 225px;
-    width: 225px;
-    margin: 4px auto;
+        background-image: url('http://placehold.it/225x225');
+        height: 225px;
+        width: 225px;
+        margin: 4px auto;
     }
 
+    #bites {
+    background-image: url('../img/work-items/bites-225.jpg');
+    }
+
+
+#hangman {
+    background-image: url('../img/work-items/hangman-225.jpg');
+    }
     #about div h2 {
         text-align: center;
     }
-
-/*NOT WORKING*/
-
+    /*NOT WORKING*/
     #utils-list {
         text-align: center !important;
         margin: 0 auto !important;
     }
-
     #skills {
         text-align: center;
     }
-
-
     #portfolio-section h2 {
         text-align: center;
     }
-
     .row-wrapper {
         margin: 0;
     }
-
     #contact {
         text-align: center;
     }
-    
 }
 
 @media (max-width: 412px) {
     .portfolio-item {
-    background-image: url('http://placehold.it/275x125');
-    height: 125px;
-    width: 275px;
-    margin: 4px auto;
+        background-image: url('http://placehold.it/275x125');
+        height: 125px;
+        width: 275px;
+        margin: 4px auto;
+    }
+   #bites {
+    background-image: url('../img/work-items/bites-275.jpg');
+    }
+
+
+#hangman {
+    background-image: url('../img/work-items/hangman-275.jpg');
     }
 }
