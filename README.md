@@ -1,6 +1,6 @@
 # Jonathan Chin
 
-[jonathankchinDev.io](https://chinjon.github.io/jonathankchinDev/)  
+[jonathankchinDev.io](http://www.jonathanch.in/)  
 
 ***  
 
@@ -9,11 +9,11 @@
 
 ### Work In Progress  
 
-:laughing: Responsive Mobile Ready  
-:smile: 60% Complete  
+:laughing: Responsive & Mobile Ready  
+:smile: <s>60%</s> 70% Complete  
 :sweat: Needs a mission statement/bio  
 
 #### Cool Goals
 
-:weary: Refactor in React  
+:weary: Refactor in <s>React</s> Handlebars (baby steps)  
 :astonished: Make site even "***cleaner***"
