@@ -14,4 +14,6 @@ app.use(bodyParser.json({type: "application/vnd.api+json"}))
 
 app.use(express.static('app/public'))
 
+
+
 app.listen(process.env.PORT || port)

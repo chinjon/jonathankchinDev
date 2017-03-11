@@ -18,10 +18,14 @@ nav {
 */
 
 #page-jumbo {
-    background-image: url('../img/lined_paper.png');
+    background-image: url('../img/ep_naturalwhite.png');
     padding: 5% 0;
     width: 100%;
     font-size: 100%;
+}
+
+.small-typed {
+    color: #fff !important;
 }
 
 /*
@@ -113,7 +117,7 @@ nav {
 
 /*sm*/
 
-@media (max-width: 2000px) {
+@media (max-width: 2000px) and (min-width: 1010px) {
     .portfolio-item {
     background-image: url('http://placehold.it/250x250');
     height: 250px;
@@ -123,11 +127,18 @@ nav {
 }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1002px) {
 
     #page-jumbo {
         margin: 4% 0;
         text-align: center;
+    }
+
+    .portfolio-item {
+    background-image: url('http://placehold.it/225x225');
+    height: 225px;
+    width: 225px;
+    margin: 4px auto;
     }
 
     #about div h2 {
@@ -140,16 +151,6 @@ nav {
         text-align: center !important;
         margin: 0 auto !important;
     }
-/*NOT WORKING*/
-
-    .portfolio-item {
-    background-image: url('http://placehold.it/275x125');
-    height: 125px;
-    width: 275px;
-    margin: 4px auto;
-
-    }
-
 
     #skills {
         text-align: center;
@@ -168,4 +169,13 @@ nav {
         text-align: center;
     }
     
+}
+
+@media (max-width: 412px) {
+    .portfolio-item {
+    background-image: url('http://placehold.it/275x125');
+    height: 125px;
+    width: 275px;
+    margin: 4px auto;
+    }
 }
