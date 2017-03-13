@@ -143,9 +143,18 @@ nav {
 #twitter-bot {
     background-image: url('../img/work-items/twitter-300.jpg');
 }
+
 #quik {
-        background-image: url('../img/work-items/quik-300.png');
+    background-image: url('../img/work-items/quik-300.png');
+}
+#burger {
+        background-image: url('../img/work-items/burger-300.png');
     }
+
+#giphy {
+    background-image: url('../img/work-items/giphy-300.png');
+}
+
 
 /*
 /////////////////////////
@@ -168,7 +177,6 @@ footer {
     font-size: 100%;
     margin-top: 30px;
 }
-
 
 
 /*
@@ -210,6 +218,12 @@ footer {
     #quik {
         background-image: url('../img/work-items/quik-250.png');
     }
+    #giphy {
+        background-image: url('../img/work-items/giphy-250.png');
+    }
+    #burger {
+        background-image: url('../img/work-items/burger-250.png');
+    }
 }
 
 @media (max-width: 1002px) {
@@ -234,6 +248,12 @@ footer {
     }
     #quik {
         background-image: url('../img/work-items/quik-225.png');
+    }
+    #giphy {
+        background-image: url('../img/work-items/giphy-225.png');
+    }
+    #burger {
+        background-image: url('../img/work-items/burger-225.png');
     }
     #about div h2 {
         text-align: center;
@@ -275,5 +295,11 @@ footer {
     }
     #quik {
         background-image: url('../img/work-items/quik-275.png');
+    }
+    #giphy {
+        background-image: url('../img/work-items/giphy-275.png');
+    }
+    #burger {
+        background-image: url('../img/work-items/burger-275.png');
     }
 }
