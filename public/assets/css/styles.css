@@ -1,0 +1,71 @@
+body{
+    background-color: #071528;
+    font-size: 100%;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+}
+
+nav {
+    width: 100%
+}
+
+.light-text{
+    color: #fff;
+}
+
+.section-sizing{
+    margin: 4rem 0;
+    padding: 2rem 0;
+}
+
+#jumbo-header {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('../img/code.jpg');
+    background-repeat: no-repeat;
+    min-height: 600px;
+    width: 100%;
+    background-size: 100%;
+}
+
+#jumbo-header-text {
+    font-size: 4.6em;
+    vertical-align: 40%;
+    font-weight: 900;
+}
+
+
+hr{
+   border: 1px solid #fff;
+   width: 60%;
+}
+
+
+#about-section{
+}
+
+#work-section{
+}
+
+.projects-collaborators a .btn {
+    margin: 10px !important;
+}
+
+
+#contact-section {
+    font-weight: normal;
+}
+#contact-section a:link, #contact-section a:visited{
+    color: #fff;
+}
+
+
+#page-footer {
+    padding: 1.2rem 0 0 1rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    background-color: #030a12;
+}
+
+#page-footer p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}

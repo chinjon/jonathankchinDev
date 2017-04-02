@@ -1,19 +1,28 @@
-const express = require('express');
-const path = require('path');
-const bodyParser = require('body-parser');
-const server = require("http").createServer(app);
+var express = require('express'),
+routes = require('./routes'),
+app = express(),
+exphbs  = require('express-handlebars'),
+bodyParser = require('body-parser');
 
-var app = express();
+app.use(express.static('./public'));
 
-var port = 3000;
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 
+const PORT = process.env.PORT || 3000;
+
+app.set('port', PORT);
+
+// Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
-app.use(bodyParser.json({type: "application/vnd.api+json"}))
-
-app.use(express.static('app/public'))
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 
+app.use('/', routes);
 
-app.listen(process.env.PORT || port)
+
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
