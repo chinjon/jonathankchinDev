@@ -14,8 +14,8 @@ nav {
 }
 
 .section-sizing{
-    margin: 4rem 0;
-    padding: 2rem 0;
+    margin: 3rem 0;
+    padding: 1.4rem 0;
 }
 
 #jumbo-header {
@@ -38,12 +38,15 @@ hr{
    width: 60%;
 }
 
-
-/*#about-section{
+#about-image {
+    margin: 1.4rem 0 0 0;
 }
 
-#work-section{
-}*/
+#doing-now-section{
+    vertical-align: middle;
+    margin: 3rem 0 0 0;
+    padding: 0;
+}
 
 .projects-collaborators a .btn {
     margin: 10px !important;
