@@ -17,3 +17,32 @@
 
 :weary: Refactor in <s>React</s> Handlebars (baby steps)  
 :astonished: Make site even "***cleaner***"
+
+
+#### version 2.0 (March 2017)
+
+##### Built With:
+
+- HTML5
+- CSS3
+    - Bootstrap **4**
+- JavaScript
+    - jQuery
+    - Node
+        - Express
+        - Handlebars
+- Now with 200% more easter eggs :laughing:
+- 100% more smooth scrolling
+
+
+#### version 1.0 (Feb 2017)
+
+##### Built With:
+
+- HTML5
+- CSS3
+    - Bootstrap 3
+- JavaScript
+    - Node
+        - Express
+        - Handlebars
