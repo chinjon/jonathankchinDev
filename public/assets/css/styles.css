@@ -2,7 +2,7 @@ body{
     background-color: #071528;
     font-size: 100%;
     width: 100%;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
 }
 
 nav {
@@ -27,9 +27,9 @@ nav {
 }
 
 #jumbo-header-text {
-    font-size: 4.6em;
+    font-size: 3.5em;
     vertical-align: 40%;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -46,6 +46,7 @@ hr{
     vertical-align: middle;
     margin: 3rem 0 0 0;
     padding: 0;
+    font-size: 100%;
 }
 
 .projects-collaborators a .btn {
@@ -71,8 +72,94 @@ hr{
 #page-footer p {
     margin-bottom: 0;
     padding-bottom: 1rem;
+    font-size: 100%;
 }
 
 #page-footer a:link, #page-footer a:visited {
     color: #fff;
+}
+
+
+@media only screen 
+  and (min-device-width: 1025px)  {
+     #jumbo-header {
+        min-height: 300px;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    #jumbo-header-text {
+        font-size: 4.5em;
+        padding-top: 10%;
+    }
+
+}
+
+
+
+
+/*iPad 3 + 4*/
+
+@media only screen 
+  and (min-device-width: 988px) 
+  and (max-device-width: 1367px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    #jumbo-header {
+        min-height: 300px;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    #jumbo-header-text {
+        font-size: 2.5em;
+        padding-top: 40px;
+    }
+}
+
+
+
+
+/*iPhone 6 +*/
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #jumbo-header {
+    min-height: 200px;
+    width: 100%;
+    background-size: 100%;
+    }
+
+    #jumbo-header-text {
+    font-size: 2em;
+    padding-top: 40px;
+    }
+
+
+}
+
+/*iPhone 5 QUERIES*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+     #jumbo-header {
+    min-height: 200px;
+    width: 100%;
+    background-size: 100%;
+    }
+
+    #jumbo-header-text {
+    font-size: 2em;
+    padding-top: 40px;
+    }
+
+    #about-text-body p {
+        font-size: 100%;
+    }
 }
