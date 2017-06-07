@@ -26,10 +26,15 @@ nav {
     background-size: 100%;
 }
 
-#jumbo-header-text {
+/*#jumbo-header-text {
     font-size: 3.5em;
     vertical-align: 40%;
     font-weight: 700;
+}*/
+
+#jumbo-body-text {
+    line-height: 10rem;
+    vertical-align: 40%;
 }
 
 
