@@ -5,6 +5,7 @@ let hbsHelper = exphbs.create({
 
 })
 
+const home = require('./../api/home');
 const workData = require('./../api/work');
 const about = require('./../api/about');
 
@@ -13,7 +14,8 @@ routes.get('/', (req, res) => {
         showWork: false,
         showTitle: true,
         showAbout: false,
-        pageTitle: "Full Stack Web Developer"
+        pageTitle: "Full Stack Web Developer",
+        home
     });
 });
 
