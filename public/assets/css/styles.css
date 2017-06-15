@@ -1,164 +1,112 @@
-body{
-    background-color: #071528;
-    font-size: 100%;
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 55px;
+}
+
+.button-small {
+  font-size: 1rem;
+  height: 2.8rem;
+  background-color: steelblue;
+  font-family: inherit;
+  line-height: 2.8rem;
+  padding: 0 1.5rem;
+  border: none;
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: steelblue;
+    cursor: inherit; 
+}
+
+button:disabled,
+button[disabled], {
+    background-color: steelblue;
+    opacity: 1;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    margin: 1.3rem 0 3rem 0;
+}
+
+.navbar li {
+display: inline;
+}
+
+li a:link, li a:visited {
+text-decoration: none;
+color: inherit;
+}
+
+li a:hover {
+color: steelblue;
+transition: color .20s;
+}
+
+.work {
+    margin: 0 auto;
     width: 100%;
-    font-family: 'Lato', sans-serif;
 }
 
-nav {
-    width: 100%
+.card {
+    min-height: 200px;
+    height: auto;
+    border-radius: .6rem;
+    margin: 1rem auto;
+    overflow: hidden;
+    border: 1px #606c76 solid;
 }
 
-.light-text{
-    color: #fff;
+.card-header {
+    font-weight: 600;
+    border-bottom: 1px solid #606c76;
+    padding: 1rem 0;
 }
 
-.section-sizing{
-    margin: 3rem 0;
-    padding: 1.4rem 0;
-}
-
-#jumbo-header {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('../img/code.jpg');
-    background-repeat: no-repeat;
-    min-height: 600px;
-    width: 100%;
-    background-size: 100%;
-}
-
-/*#jumbo-header-text {
-    font-size: 3.5em;
-    vertical-align: 40%;
-    font-weight: 700;
-}*/
-
-#jumbo-body-text {
-    line-height: 10rem;
-    vertical-align: 40%;
-}
-
-
-hr{
-   border: 1px solid #fff;
-   width: 60%;
-}
-
-#doing-now-section{
-    vertical-align: middle;
-    margin: 3rem 0 0 0;
+.card-header ul {
     padding: 0;
-    font-size: 100%;
+    margin: 0;
 }
 
-.projects-collaborators a .btn {
-    margin: 10px !important;
+.card-header li {
+    display: inline;
 }
 
-
-#contact-section {
-    font-weight: normal;
+.card-body {
+    padding: 2rem;
+    overflow: hidden; 
+    height: auto;
+    width: auto;
 }
-#contact-section a:link, #contact-section a:visited{
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: steelblue;
+    position: fixed;
+    margin-top: 5rem;
+}
+
+.footer .footer-text {
+    font-size: 1.4rem;
+    margin: 1.6rem 0 1.3rem 0;
     color: #fff;
 }
 
 
-#page-footer {
-    padding: 1.2rem 0 0 1rem;
-    margin-top: 2rem;
-    line-height: 2rem;
-    background-color: #030a12;
-}
+/* Larger than mobile screen */
+/*@media (min-width: 40.0rem) {  }*/
 
-#page-footer p {
-    margin-bottom: 0;
-    padding-bottom: 1rem;
-    font-size: 100%;
-}
+/* Larger than tablet screen */
+/*@media (min-width: 80.0rem) {  }*/
 
-#page-footer a:link, #page-footer a:visited {
-    color: #fff;
-}
-
-
-@media only screen 
-  and (min-device-width: 1025px)  {
-     #jumbo-header {
-        min-height: 300px;
-        width: 100%;
-        background-size: 100%;
-    }
-
-    #jumbo-header-text {
-        font-size: 4.5em;
-        padding-top: 10%;
-    }
-
-}
-
-
-/*iPad 3 + 4*/
-
-@media only screen 
-  and (min-device-width: 988px) 
-  and (max-device-width: 1367px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    
-    #jumbo-header {
-        min-height: 300px;
-        width: 100%;
-        background-size: 100%;
-    }
-
-    #jumbo-header-text {
-        font-size: 2.5em;
-        padding-top: 40px;
-    }
-}
-
-
-
-
-/*iPhone 6 +*/
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    #jumbo-header {
-    min-height: 200px;
-    width: 100%;
-    background-size: 100%;
-    }
-
-    #jumbo-header-text {
-    font-size: 2em;
-    padding-top: 40px;
-    }
-
-
-}
-
-/*iPhone 5 QUERIES*/
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-     #jumbo-header {
-    min-height: 200px;
-    width: 100%;
-    background-size: 100%;
-    }
-
-    #jumbo-header-text {
-    font-size: 2em;
-    padding-top: 40px;
-    }
-
-    #about-text-body p {
-        font-size: 100%;
-    }
-}
+/* Larger than desktop screen */
+/*@media (min-width: 120.0rem) {  }*/
