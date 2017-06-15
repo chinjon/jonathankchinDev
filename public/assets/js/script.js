@@ -1,4 +1,7 @@
 $(document).ready(()=>{
+    // init smooth scroll library
+    smoothScroll.init();
+
     $('#jumbo-header-text').addClass('animated fadeInUp');
 
     $('#jumbo-header-text').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', animateJumboText());
@@ -6,11 +9,6 @@ $(document).ready(()=>{
     function animateJumboText(){
         $("#jumbo-body-text").addClass('animated slideInLeft');
     }
-
-
-
-
-
 
     $('#nav-name-brand').on('click', (e)=>{
         e.preventDefault();
