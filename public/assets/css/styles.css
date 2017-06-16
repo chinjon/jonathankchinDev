@@ -74,6 +74,7 @@ transition: color .20s;
     padding: 0;
     margin: 0;
     list-style: none;
+    display: inline-block;
 }
 
 .card-header ul li {
