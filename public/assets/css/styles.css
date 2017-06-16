@@ -56,6 +56,7 @@ transition: color .20s;
 
 .card {
     min-height: 200px;
+    max-width: 500px;
     height: auto;
     border-radius: .6rem;
     margin: 1rem auto;
@@ -72,9 +73,10 @@ transition: color .20s;
 .card-header ul {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
-.card-header li {
+.card-header ul li {
     display: inline;
 }
 
