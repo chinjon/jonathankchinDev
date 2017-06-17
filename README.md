@@ -1,6 +1,7 @@
 # Jonathan Chin
 
-[jonathankchinDev.io](http://www.jonathanch.in/)  
+[jonathanch.in](http://www.jonathanch.in/)   
+[MEDIUM: Going from v2 to v3](https://medium.com/@chinjon/de-bloating-my-developer-portfolio-f79f6a4d537)  
 
 ***  
 
