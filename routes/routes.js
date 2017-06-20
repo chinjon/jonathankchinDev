@@ -8,6 +8,8 @@ let hbsHelper = exphbs.create({
 const home = require('./../api/home');
 const workData = require('./../api/work');
 const about = require('./../api/about');
+const likes = require('./../api/likes');
+const skills = require('./../api/skills');
 
 routes.get('/', (req, res) => {
     res.render('index', {
@@ -15,7 +17,8 @@ routes.get('/', (req, res) => {
         showTitle: true,
         showAbout: false,
         pageTitle: "Full Stack Web Developer",
-        home
+        home,
+        skills
     });
 });
 
@@ -37,6 +40,7 @@ routes.get('/about', (req, res) => {
         showAbout: true,
         pageTitle: 'About',
         about,
+        likes,
     })
 })
 

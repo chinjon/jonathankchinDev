@@ -26,6 +26,10 @@ button[disabled], {
     opacity: 1;
 }
 
+.text-centered {
+    text-align: center;
+}
+
 a, a:visited, a:link {
     text-decoration: none;
     color: inherit;
