@@ -33,6 +33,21 @@ const workData = [
         url: 'https://chinjon.github.io/hangman/',
         tech: ['jQuery', 'Twitter Bootstrap', 'HowlerJS'],
         summary: 'A word game based on the offkilter lyrics of MF DOOM.'
+    },
+    {
+        projectName: "Bandcamp Twitter Bot",
+        github: "https://github.com/chinjon/node-twitter-bot",
+        url: "https://twitter.com/botByChinJon",
+        tech: ['NodeJS', 'Heroku', 
+        'Twitter API'],
+        summary: 'A (very opinionated) Twitter bot that tweets out good music.'
+    },
+    {
+        projectName: 'Quik Chat',
+        github: 'https://github.com/chinjon/quik-chat',
+        url: 'https://quik-chat.herokuapp.com/',
+        tech: ['Web Sockets', 'Bulma CSS', 'Node', 'Express JS'],
+        summary: "Chatroom designed for quick and fast communications."
     }
 ]
 
