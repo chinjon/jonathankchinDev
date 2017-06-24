@@ -44,4 +44,8 @@ routes.get('/about', (req, res) => {
     })
 })
 
+routes.get('*', (req, res) => {
+    res.render('404', {status: 404})
+})
+
 module.exports = routes;
