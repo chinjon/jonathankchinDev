@@ -21,6 +21,13 @@ const workData = [
         tech: ["JavaScript",'NodeJS', 'MongoDB', 'Mongoose', 'UIKit', 'Heroku', 'ExpressJS']
     },
     {
+        projectName: "NYTimes React",
+        github: 'https://github.com/chinjon/nytimes-react',
+        url: 'https://nyt-react-app.herokuapp.com/',
+        summary: 'A CRUD application using the NYTimes Search API and ReactJS with MongoDB.',
+        tech:["JavaScript", 'ReactJS', 'ExpressJS', 'Semantic UI', 'NodeJS', 'NYTimes Search API']
+    },
+    {
         projectName: "GIFs Search",
         github: 'https://github.com/chinjon/giphy-app',
         url: 'https://chinjon.github.io/giphy-app/',
