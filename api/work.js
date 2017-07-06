@@ -11,7 +11,7 @@ const workData = [
         github: 'https://github.com/chinjon/walmart-react',
         url: 'http://walmart-react.herokuapp.com',
         tech: ["JavaScript","ReactJS", 'LocalStorage', 'Heroku', 'Walmart Search API'],
-        summary: 'Itemizer application utilziing React JS and local storage.'
+        summary: 'Itemizer application utilizing React JS and local storage.'
     },
     {
         projectName: "Crate Digger",
