@@ -50,6 +50,13 @@ const workData = [
         summary: 'A (very opinionated) Twitter bot that tweets out good music.'
     },
     {
+        projectName: "Short Link",
+        github: "https://github.com/chinjon/short-link",
+        url: "https://shortlinkapp-meteor.herokuapp.com",
+        tech: ['MeteorJS', 'Heroku', 'ReactJS'],
+        summary: 'Application to store links and provide shortened URLs for easy sharing.'
+    },
+    {
         projectName: 'Quik Chat',
         github: 'https://github.com/chinjon/quik-chat',
         url: 'https://quik-chat.herokuapp.com/',
