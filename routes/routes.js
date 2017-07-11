@@ -16,7 +16,7 @@ routes.get('/', (req, res) => {
         showWork: false,
         showTitle: true,
         showAbout: false,
-        pageTitle: "Full Stack Web Developer",
+        pageTitle: "Full Stack JavaScript Developer",
         home,
         skills
     });
