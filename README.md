@@ -31,7 +31,8 @@
 - JavaScript
     - Node JS
         - Express JS
-        - Handlebars Express
+        - Handlebars Express  
+- [Favicon.io](https://favicon.io/index.html)  
 
 - Now 100x faster than v2 :running:  
 

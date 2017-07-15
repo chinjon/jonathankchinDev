@@ -1,3 +1,3 @@
-const likes = ["Public Radio", "Weird Music", "JavaScript", "Learning", "Basketball", "Podcasts", ]
+const likes = ["Public Media", "Weird Music", "JavaScript", "Learning", "Basketball", "Podcasts", ]
 
 module.exports = likes
