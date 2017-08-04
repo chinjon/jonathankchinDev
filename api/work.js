@@ -62,6 +62,13 @@ const workData = [
         url: 'https://quik-chat.herokuapp.com/',
         tech: ['Web Sockets', 'Bulma CSS', 'Node', 'Express JS'],
         summary: "Chatroom designed for quick and fast communications."
+    },
+    {
+        projectName: 'React Weather',
+        github: 'https://github.com/chinjon/react-weather',
+        url: 'http://boiling-earth-56658.herokuapp.com/',
+        tech: ['ReactJS', 'Open Weather API', 'Foundation', 'NodeJS', 'ExpressJS', 'React Router'],
+        summary: "A weather app built in React that displays data from Open Weather."
     }
 ]
 
