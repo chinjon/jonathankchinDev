@@ -53,6 +53,11 @@ a, a:visited, a:link {
 display: inline;
 }
 
+.navbar .active {
+    color: steelblue;
+    text-decoration: underline;
+}
+
 li a:link, li a:visited {
 text-decoration: none;
 color: inherit;

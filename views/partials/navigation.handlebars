@@ -3,9 +3,27 @@
         <div class="row">
             <div class="column column-80">
                 <ul class="nav-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/work">Work</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/">
+                        {{#if showTitle}}
+                            <strong class="active">Home</strong>
+                        {{else}}
+                            Home
+                        {{/if}}                        
+                    </a></li>
+                    <li><a href="/work">
+                        {{#if showWork}}
+                            <strong class="active">Work</strong>
+                        {{else}}
+                            Work
+                        {{/if}}
+                    </a></li>
+                    <li><a href="/about">
+                        {{#if showAbout}}
+                            <strong class="active">About</strong>
+                        {{else}}
+                            About
+                        {{/if}}
+                    </a></li>
                 </ul>
             </div>
             <div class="column column-15">
