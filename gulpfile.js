@@ -34,7 +34,7 @@ var LESS_PATH = 'public/assets/less/**/*.less';
 gulp.task('styles', function() {
     console.log('Starting styles task');
 
-    return gulp.src('public/less/styles.less')
+    return gulp.src('public/assets/less/styles.less')
         .pipe(plumber(function(err) {
             console.log('Styles Task Error');
             console.log(err);
