@@ -12,12 +12,14 @@
 
 ~~:laughing: Responsive & Mobile Ready~~  
 ~~:smile: <s>60%</s> 70% Complete~~  
-~~:sweat: Needs a mission statement/bio~~  
 
 #### Cool Goals
 
-:weary: Refactor in <s>React</s> Handlebars (baby steps)  
-:astonished: Make site even "***cleaner***"
+- [ ] :weary: Refactor in <s>React</s> Handlebars (baby steps)
+    - [ ] debating on creating a SPA
+        - [ ] explore PWA down the line?
+- [ ] :astonished: Make site even "***cleaner***"
+
 
 ***  
 
@@ -25,14 +27,18 @@
 
 ##### Built With:  
 
-- HTML5  
-- CSS3  
+- HTML5
+- CSS3 
     - Milligram CSS
+    - LESS
+- Font Awesome
 - JavaScript
+    - Gulp
+        - CSS Minification
     - Node JS
         - Express JS
-        - Handlebars Express  
-- [Favicon.io](https://favicon.io/index.html)  
+        - Handlebars Express
+- [Favicon.io](https://favicon.io/index.html)
 
 - Now 100x faster than v2 :running:  
 
