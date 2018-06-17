@@ -4,10 +4,6 @@
 [MEDIUM: Going from v2 to v3](https://medium.com/@chinjon/de-bloating-my-developer-portfolio-f79f6a4d537)   
 
 ***  
-
-<img src="demo-screen.gif">  
-
-
 ### Work In Progress  
 
 ~~:laughing: Responsive & Mobile Ready~~  
@@ -15,10 +11,8 @@
 
 #### Cool Goals
 
-- [ ] :weary: Refactor in <s>React</s> Handlebars (baby steps)
-    - [ ] debating on creating a SPA
-        - [ ] explore PWA down the line?
 - [ ] :astonished: Make site even "***cleaner***"
+- [ ] :pencil2: Add blog (markdown)
 
 
 ***  
