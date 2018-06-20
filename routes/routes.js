@@ -1,14 +1,7 @@
 const routes = require('express').Router();
-const exphbs = require('express-handlebars');
-
-let hbsHelper = exphbs.create({
-
-})
 
 const home = require('./../api/home');
-
 const likes = require('./../api/likes');
-
 
 routes.get('/', (req, res) => {
     res.render('index', {
